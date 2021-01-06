@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Formulário de endereço - Painel Pesquisas</title>
+    <link rel="shortcut icon" href="./assets/img/painel_pesquisas-favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.painelpesquisas.com.br/">
+                <img src="./assets/img/Logo__Painel-Branca.png" alt="" width="240" height="80">
+            </a>
+        </div>
+    </nav>
+
+    <div class="container mt-5 col-md-6">
+        <form>
+            <div class="form-row">
+                <label for="input">Logradouro</label>
+                <select class="form-control">
+                    <option>RUA</option>
+                    <option>ALAMEDA</option>
+                    <option>AVENIDA</option>
+                    <option>ESTRADA</option>
+                    <option>LOTEAMENTO</option>
+                    <option>RODOVIA</option>
+                    <option>VIADUTO</option>
+
+
+                </select>
+            </div>
+            <div class="form-group mt-3">
+                <label for="inputAddress">Nome do logradouro</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Rua do Príncipe">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label for="inputNumber">Número </label>
+                    <input type="number" class="form-control" id="inputNumber">
+                </div>
+                <div class="form-group col-md-6">
+                    <div class="form-group">
+                        <label for="inputAddress2">Complemento</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartamento, hotel, casa, etc.">
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputDistrict">Bairro</label>
+                    <input type="text" class="form-control" id="inputDistrict">
+                </div>
+            </div>
+            <!-- Arrumar as ID e Class daqui pra frente  -->
+            <label for="inputLongitude">Longitude</label>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputNumber">Grau</label>
+                    <input type="number" class="form-control" id="inputNumber">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputNumber">Minuto</label>
+                    <input type="number" class="form-control" id="inputNumber">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputNumber">Segundo</label>
+                    <input type="number" class="form-control" id="inputNumber">
+                </div>
+                <label for="inputLatitude">Latitude</label>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="inputNumber">Grau</label>
+                        <input type="number" class="form-control" id="inputNumber">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputNumber">Minuto</label>
+                        <input type="number" class="form-control" id="inputNumber">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputNumber">Segundo</label>
+                        <input type="number" class="form-control" id="inputNumber">
+                    </div>
+            </div>
+
+            <button type="submit" class="btn btn-success">SALVAR</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
