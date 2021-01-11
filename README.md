@@ -9,7 +9,7 @@ Ao clicar em enviar o formulário as coordenadas geográficas (grau, minuto, seg
 deverão ser convertidas para graus decimais (x,y). Depois os dados do endereço já com
 as coordenadas convertidas serão armazenados em um JSON.
 
-### O resultado pode ser acesado atráves do link a seguir:
+### O resultado pode ser acessado atráves do link a seguir:
 
 http://testepainel-bl.surge.sh/
 
