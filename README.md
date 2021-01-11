@@ -12,3 +12,5 @@ as coordenadas convertidas serão armazenados em um JSON.
 ### O resultado pode ser acesado atráves do link a seguir:
 
 http://testepainel-bl.surge.sh/
+
+Foi utilizado Bootstrap 4 e JavaScript para resolução desse teste. 
